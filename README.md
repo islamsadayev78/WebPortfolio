@@ -1,4 +1,4 @@
-![Background Image](assets/images/WonderWebBg.jpg)
+![Background Image](src/assets/images/WonderWebBg.jpg)
 # Islam Sadaev Portfolio
 
 Welcome to my web design portfolio! This repository showcases a selection of my web design projects, highlighting my skills in front-end development, user experience (UX) design, and responsive design. Each project includes an overview, key features, technologies used, and a live demo link.

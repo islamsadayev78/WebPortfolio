@@ -2,16 +2,151 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Islam Sadaev">
-    <meta name="description" content="Portfolio of Islam Sadaev">
-    <link rel="stylesheet" href="">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> <!-- Link to your custom CSS -->
 </head>
 <body>
-    <header>
-        <nav>
-
+<header>
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+        <!-- Text Introduction -->
+        <div class="text-start">
+            <p class="lead">Hey there</p>
+            <h1>My name is Islam Sadaev, <br> I'm a Front End Developer.</h1>
+        </div>
+        <!-- Navbar -->
+        <nav id="nav" class="navbar">
+            <ul class="navbar-nav flex-row">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#certificates">Certificates</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+            </ul>
         </nav>
-    </header>
+        <!-- Hamburger Menu Icon -->
+        <div id="hamburger" class="hamburger">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+        </div>
+    </section>
+</header>
+
+
+<!-- Fullscreen Menu -->
+<div id="menu" class="menu">
+    <ul class="menu-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+    <!-- Social Icons -->
+    <div class="social-icons">
+        <a href="mailto:islamsadayev78@icloud.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" class="social-icon"><i class="fab fa-linkedin"></i></a>
+    </div>
+</div>
+
+<!-- Sections -->
+<section id="about" class="py-5 text-white">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="row">
+
+        <p class="col-lg-9">
+            Hi! I'm Islam Sadaev, a passionate Front End Developer who loves creating modern, responsive, and user-friendly websites.
+            With a strong focus on web design principles and a solid grasp of technologies like HTML, SCSS and Bootstrap,
+            I've worked on a variety of projects that demonstrate my ability to turn creative ideas into functional web applications.
+        </p>
+            <img class="col-lg-3" id="abtMeImg" src="assets/images/image.jpg" alt="me">
+
+
+
+
+
+        <p>
+
+            I'm constantly exploring the latest trends in web development, learning new techniques, and refining my skills. My approach
+            to problem-solving is both practical and creative, and I love tackling challenges that help me grow as a developer.
+        </p>
+        <p>
+            Whether working on team projects or building solo, my goal is to deliver clean, efficient, and maintainable code while
+            creating engaging user experiences.
+        </p>
+        </div>
+
+    </div>
+</section>
+
+<div class="slider">
+    <ul>
+        <!-- First set of icons -->
+        <li id="slide1">
+            <i class="fa-brands fa-html5"></i>
+        </li>
+        <li id="slide2">
+            <i class="fa-brands fa-css3-alt"></i>
+        </li>
+        <li id="slide3">
+            <i class="fa-brands fa-bootstrap"></i>
+        </li>
+        <li id="slide4">
+            <i class="fa-brands fa-sass"></i>
+        </li>
+
+    </ul>
+</div>
+
+<section id="qualities" class="py-5 text-white">
+    <div class="container">
+        <h2>Your Confidence, My Commitment</h2>
+        <p>Showcase your certificates and achievements here.</p>
+    </div>
+</section>
+
+<section id="projects" class="py-5 text-white">
+    <div class="container">
+        <h2>Projects</h2>
+        <p>Details about your projects and what you have worked on.</p>
+    </div>
+</section>
+
+<section id="workflow" class="py-5 text-white">
+    <div class="container">
+        <h2>Workflow</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, repudiandae?</p>
+        <div class="scroll-container">
+            <div class="scroll-content">
+                <!-- Repeating tiles/content here -->
+                <div class="tile">Tile 1</div>
+                <div class="tile">Tile 2</div>
+                <div class="tile">Tile 3</div>
+                <div class="tile">Tile 4</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="hobbies" class="py-5 text-white">
+    <div class="container">
+        <h2>Apart from Design, I Enjoy</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, repudiandae?</p>
+    </div>
+</section>
+
+
+
+<!-- Bootstrap JS and custom scripts -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="js/portfolio.js"></script> <!-- Link to your custom JS -->
 </body>
 </html>
